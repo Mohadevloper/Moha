@@ -1,18 +1,21 @@
 {
-  "name": "copy-servers",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.13.0",
-    "discord.js-selfbot-v13": "^2.14.10",
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": "16.x"
-  },
-  "license": "MIT"
+    "@types/node": "^18.0.6",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.8.1",
+    "express": "^4.18.1",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.2.6",
+    "quick.db": "^9.0.6"
+  }
 }
